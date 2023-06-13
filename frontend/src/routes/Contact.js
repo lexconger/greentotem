@@ -12,7 +12,7 @@ function Contact() {
                 <div class="contentSubtitle">Our team can help you:</div>
                 <ul>
                         <li>Design</li>
-                        <li>Iterate</li>
+                        <li>Build</li>
                         <li>Maintain</li>
                 </ul>
             </div>

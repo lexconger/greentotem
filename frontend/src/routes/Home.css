@@ -1,13 +1,21 @@
 * {
     /* border: 1px solid red; */
   }
+
+body {
+  min-height: 80vh;
+}
+
+  .titleContainer {
+    border: 1px solid red;
+  }
   
   .title {
     font-family: 'Montserrat', sans-serif;
     font-size: 128px;
     font-weight: 300;
     padding: 0 0.5em 0 0.2em;
-    margin: 0 0 0 0;
+    margin: 0;
     width: 100%;
   }
   
@@ -44,8 +52,9 @@
   
   .container {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
   }
   
   /* Utility classes */
@@ -57,3 +66,22 @@
     margin: 0px;
   }
   
+  .contactButton {
+    padding: 10px 12px;
+    float: right;
+    width: auto;
+    height: auto;
+    background-color: #635BFF;
+    border-radius: 22px;
+    color: #FFF;
+  }
+
+  .contactButton:hover {
+    background-color: hsl(243, 95%, 71%);
+    cursor:pointer;
+  }
+
+  /* .buttonLink {
+    color: #FFF;
+    text-decoration: none;
+  } */

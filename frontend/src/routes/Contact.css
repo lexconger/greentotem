@@ -10,11 +10,11 @@ body {
 .contact-page .contentWrapper {
     display: flex;
     max-width: 1080px;
-    border:solid blue 1px;
+    /* border:solid blue 1px; */
 }
 
 .contact-page .content {
-    border: solid red 1px;
+    /* border: solid red 1px; */
     max-width: 500px;
 }
 
