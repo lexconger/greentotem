@@ -9,7 +9,7 @@ function Home() {
 
   return (
     <div className="home-page">
-      <a href="contact">contact</a>
+      <a href="contact"><button className="contactButton">Contact</button></a>
       <NavMenu></NavMenu>
       <div className="container">
           <div className="titleContainer">

@@ -7,7 +7,7 @@ body {
 }
 
   .titleContainer {
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   
   .title {
@@ -35,7 +35,8 @@ body {
     margin: 0px 0px 0px 0px;
     padding: 0px 0.1em 0.1em 0.1em;
     background-color: rgb(51, 153, 51);
-    color: rgb(255, 255, 204);
+    /* color: rgb(255, 255, 204); */
+    color: #FFF;
     font-weight: 800;
   
     display: inline-block;
@@ -69,16 +70,29 @@ body {
   .contactButton {
     padding: 10px 12px;
     float: right;
+    position: absolute;
+    top: 0%;
+    margin-top: 36px;
     width: auto;
     height: auto;
     background-color: #635BFF;
-    border-radius: 22px;
+    border-radius: 24px;
     color: #FFF;
+    font-size: 24px;
+    border: none;
+    box-shadow: -3px 3px 7px 0px rgba(128, 128, 128, 0.4);
   }
 
   .contactButton:hover {
     background-color: hsl(243, 95%, 71%);
     cursor:pointer;
+    animation: grow-animation 2s ease-in-out infinite;
+  }
+
+  @keyframes grow-animation {
+    0% { transform: scale(1); }
+    50% {transform: scale(1.1); }
+    100% {transform: scale(1); }
   }
 
   /* .buttonLink {
