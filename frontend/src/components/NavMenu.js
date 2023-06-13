@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 function NavMenu() {
 
     return(
-      <div>
+      <div className="NavMenu">
         NavMenu
       </div>
     )
