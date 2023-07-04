@@ -7,6 +7,8 @@ import Contact from './routes/Contact';
 import {
   createBrowserRouter,
   RouterProvider,
+  hashHistory,
+  createHashRouter
 } from "react-router-dom"
 
 const router = createBrowserRouter([
@@ -31,7 +33,7 @@ root.render(
     {/* Body document font - Roboto */}
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'></link>
     <React.StrictMode>
-      <RouterProvider router={router} />
+      <RouterProvider router={router}/>
     </React.StrictMode>
   </>
 );
