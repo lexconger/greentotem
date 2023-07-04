@@ -2,6 +2,43 @@
   /* border: 1px solid red; */
 }
 
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.page {
+  background-color: whitesmoke;
+  height: 200vh;
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+}
+
+.navBarContainer {
+  border: 1px solid cyan;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
 .title {
   font-family: 'Montserrat', sans-serif;
   font-size: 128px;
@@ -47,6 +84,8 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+
+
 
 /* Utility classes */
 .nopadding {

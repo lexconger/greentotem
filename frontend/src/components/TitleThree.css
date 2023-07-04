@@ -1,0 +1,27 @@
+.logoWrapper {
+    width: 250px;
+    border: 1px solid red;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 108px;
+    font-weight: 300;
+    padding: 0 0.5em 0 0.2em;
+    margin: 0 0 0 0;
+    width: 100%;
+
+}
+
+.titleWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeInAndUp 2s;
+    border: solid red 1px;
+}
+
+@keyframes fadeInAndUp {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
