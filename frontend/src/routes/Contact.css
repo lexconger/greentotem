@@ -1,0 +1,112 @@
+body {
+    background-color: #F6F9FC;
+    padding: 30px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-page .contentWrapper {
+    display: flex;
+    max-width: 1080px;
+    /* border:solid blue 1px; */
+}
+
+.contact-page .content {
+    /* border: solid red 1px; */
+    max-width: 500px;
+}
+
+.contact-page .contentSubtitle {
+    font-size: 24px;
+}
+
+.contact-page .content {
+
+}
+
+.contact-page .formWrapper {
+    background-color: #FFF;
+    /* Box shadow generator:  https://www.cssportal.com/css3-box-shadow-generator/ */
+    box-shadow: -3px 3px 7px 0px rgba(128, 128, 128, 0.4);
+    border-radius: 8px;
+    width: 50%;
+    max-width: 900px;
+    height: auto;
+    margin: 30px;
+    padding: 14px;
+    margin-top: 5%;
+}
+
+.contact-page .formWrapper .labelWrapper {
+    /* border: solid red 1px; */
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.contact-page .formWrapper .labelWrapper:first-child {
+    margin-top: 0px;
+}
+
+.contact-page .formWrapper .labelWrapper label {
+    font-weight: 600;
+    font-size: 18px;
+    align-self: center;
+}
+
+.contact-page .formWrapper input {
+    width: 250px;
+    height: 28px;
+    border: none;
+    /* border-bottom: solid black 1px; */
+    background-color: #F6F9FC;
+    border-radius: 3px;
+    padding-left: 7px;
+    font-size: 18px;
+}
+
+.contact-page .formWrapper input input:focus {
+    outline: none;
+}
+
+.contact-page .formWrapper .submitButton {
+    margin-top: 12px;
+    padding: 10px 12px;
+    float: right;
+    width: 122px;
+    height: auto;
+    background-color: #635BFF;
+    color: #FFF;
+    border-radius: 22px;
+}
+
+.contact-page .formWrapper .submitButton:hover {
+    background-color: hsl(243, 95%, 71%);
+    cursor:pointer;
+}
+
+.contact-page li {
+    list-style: '✓ ';
+    margin-left: 16px;
+}
+
+.contact-page h1 {
+    font-size: 60px;
+}
+
+.anythingElse label {
+    font-size: 12px;
+}
+
+#anythingElseWrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+#anythingElseInput {
+    height: 200px;
+}
