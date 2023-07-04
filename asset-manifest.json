@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/greentotem/static/css/main.9b05163b.css",
-    "main.js": "/greentotem/static/js/main.fc7e1d80.js",
+    "main.js": "/greentotem/static/js/main.0b1404e9.js",
     "static/media/treeTotem1.svg": "/greentotem/static/media/treeTotem1.0ca0f7c1097171357dd85b083f19ed0b.svg",
     "static/media/paper-svgrepo-com.svg": "/greentotem/static/media/paper-svgrepo-com.aa66873e1e4c956e9de32fbd0d5e2e1d.svg",
     "index.html": "/greentotem/index.html",
     "main.9b05163b.css.map": "/greentotem/static/css/main.9b05163b.css.map",
-    "main.fc7e1d80.js.map": "/greentotem/static/js/main.fc7e1d80.js.map"
+    "main.0b1404e9.js.map": "/greentotem/static/js/main.0b1404e9.js.map"
   },
   "entrypoints": [
     "static/css/main.9b05163b.css",
-    "static/js/main.fc7e1d80.js"
+    "static/js/main.0b1404e9.js"
   ]
 }
