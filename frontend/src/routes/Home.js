@@ -2,22 +2,22 @@ import './Home.css'
 import {useState, useEffect} from 'react'
 import TitleOne from '../components/TitleOne';
 import TitleTwo from '../components/TitleTwo';
+import TitleThree from '../components/TitleThree';
 import TitleStatic from '../components/TitleStatic';
-import NavMenu from '../components/NavMenu';
+import ContactButton from '../components/ContactButton';
+import NavBar from '../components/NavBar';
 
 function Home() {
 
   return (
-    <div className="home-page">
-      <a href="contact"><button className="contactButton">Contact</button></a>
-      <NavMenu></NavMenu>
-      <div className="container">
-          <div className="titleContainer">
-            {/* <TitleOne /> */}
-            {/* <TitleTwo /> */}
-            <TitleStatic />
-          </div>
-        </div>
+    <div className="page_home">
+      <ContactButton />
+      <NavBar />
+      <div className="titleContainer">
+        {/* <TitleStatic/> */}
+        <TitleThree/>
+      </div>
+
     </div>
     
   );

@@ -1,9 +1,10 @@
 .logoWrapper {
     width: 250px;
-    border: 1px solid red;
 }
 
 .title {
+    /* border: solid 1px gold; */
+    
     font-family: 'Montserrat', sans-serif;
     font-size: 108px;
     font-weight: 300;
@@ -14,14 +15,29 @@
 }
 
 .titleWrapper {
+    /* border: solid 1px green; */
+
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: fadeInAndUp 2s;
-    border: solid red 1px;
+
+    /* Prevent selection of text */
+    user-select: none;
+
+     /* Prevent ghost-dragging of images */
+    pointer-events: none;
+    
+    position: relative;
+    top: 30%;
+
+    animation: fadeInAndUp 1s ease-out;
+    /* Ensure the last animation key frame sticks around */
+    animation-fill-mode: forwards; 
 }
 
 @keyframes fadeInAndUp {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {opacity: 0;
+        top: 25%;}
+    100% {opacity: 1;
+        top: 15%;}
 }

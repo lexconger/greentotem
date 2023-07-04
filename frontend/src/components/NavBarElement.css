@@ -1,0 +1,54 @@
+a.navBarElement {
+    text-decoration: none;
+    color: black;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+
+    /* display: inline-block; */
+    position: relative;
+
+    user-select: none;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+a:hover::before{
+    transform: scaleX(1);
+}
+
+/* 
+a.navBarElement::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+a.navBarElement::hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@keyframes slideUnderlineRight {
+    0% {
+
+    }
+} */

@@ -1,101 +1,19 @@
-* {
-    /* border: 1px solid red; */
-  }
-
+/* NOTE:  navBarContainer css in index.css */
 body {
-  min-height: 80vh;
+  background-color: #F6F9FC;
+  /* padding: 30px; */
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-  .titleContainer {
-    /* border: 1px solid red; */
-  }
-  
-  .title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 128px;
-    font-weight: 300;
-    padding: 0 0.5em 0 0.2em;
-    margin: 0;
-    width: 100%;
-  }
-  
-  .title-secondline {
-    white-space: nowrap;
-  }
-  
-  .with {
-    padding-right: 0.3em;
-    display: inline-block;
-    width: auto;
-  }
-  
-  .rollover {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 128px;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0.1em 0.1em 0.1em;
-    background-color: rgb(51, 153, 51);
-    /* color: rgb(255, 255, 204); */
-    color: #FFF;
-    font-weight: 800;
-  
-    display: inline-block;
-    /* Prevent flex-container from filling parent width */
-    /* align-self: flex-start; */
-    transition: width 2s;
-  }
-  
-  .rolloverTitleContainer {
-    display: flex;
-    flex-direction: column;
-    width: 120%;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100%;
-  }
-  
-  /* Utility classes */
-  .nopadding {
-    padding: 0px;
-  }
-  
-  .nomargin {
-    margin: 0px;
-  }
-  
-  .contactButton {
-    padding: 10px 12px;
-    float: right;
-    position: absolute;
-    top: 0%;
-    margin-top: 36px;
-    width: auto;
-    height: auto;
-    background-color: #635BFF;
-    border-radius: 24px;
-    color: #FFF;
-    font-size: 24px;
-    border: none;
-    box-shadow: -3px 3px 7px 0px rgba(128, 128, 128, 0.4);
-  }
+.page_home {
+  height: 100vh;
+}
 
-  .contactButton:hover {
-    background-color: hsl(243, 95%, 71%);
-    cursor:pointer;
-    animation: grow-animation 2s ease-in-out infinite;
-  }
+.titleContainer {
+  border: 1px solid red;
+  height: 500px;
+}
 
-  @keyframes grow-animation {
-    0% { transform: scale(1); }
-    50% {transform: scale(1.1); }
-    100% {transform: scale(1); }
-  }
-
-  /* .buttonLink {
-    color: #FFF;
-    text-decoration: none;
-  } */

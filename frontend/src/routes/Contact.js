@@ -1,11 +1,12 @@
 import './Contact.css'
+import NavBar from '../components/NavBar';
 import {useState, useEffect} from 'react'
 
 function Contact() {
 
   return (
     <div className="contact-page">
-        
+        <NavBar></NavBar>
         <div className="contentWrapper">
             <div className="content">
                 <h1>Speak with an expert</h1>
