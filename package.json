@@ -2,5 +2,10 @@
   "dependencies": {
     "firebase": "^9.23.0",
     "firestore": "^1.1.6"
+  },
+  "scripts": {
+    "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "test": "DISABLE_ESLINT_PLUGIN=true react-scripts test"
   }
 }
